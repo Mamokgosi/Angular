@@ -1,0 +1,10 @@
+<div>
+    <div class="card mb-3" *ngFor="let product of products">
+        <img src="{{product.image}}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">{{product.title}}</h5>
+          <p class="card-text">{{product.description}}</p>
+          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+</div>
