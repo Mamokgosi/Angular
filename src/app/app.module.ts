@@ -17,6 +17,8 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
+    //FormsModule
+    //ReativeFormModule
   ],
   providers: [],
   bootstrap: [AppComponent]
